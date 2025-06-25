@@ -1,0 +1,20 @@
+.facebook {
+  padding: 5px 15px 5px 5px;
+  color: white;
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  border-radius: 5px;
+}
+.apple {
+  padding: 5px 15px 5px 5px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.facebook a,
+.apple a {
+  text-decoration: none;
+  color: white;
+  font-size: 8px;
+}
