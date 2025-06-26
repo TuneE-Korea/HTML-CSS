@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.mini {
+  width: 100px;
+  height: 100px;
+}
+.box1 {
+  background-color: #fd9644;
+}
+.box2 {
+  background-color: #fed330;
+}
+.box3 {
+  background-color: #fa8231;
+}
+.box4 {
+  background-color: #f7b731;
+}
+.box5 {
+  background-color: #4b7bec;
+}
+.box6 {
+  background-color: #a55eea;
+}
+.box7 {
+  background-color: #3867d6;
+}
+.box8 {
+  background-color: #8854d0;
+}
