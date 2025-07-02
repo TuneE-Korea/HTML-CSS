@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* 위 중앙정렬은 버튼 태그를 썼으면 안해도 됐을 작업 */
+  position: relative;
+  border: 1px solid #d1ccc0;
+  border-radius: 15px;
+  height: 50px;
+}
+.kakao {
+  width: 20vw;
+  background-color: #fff200;
+}
+.phone {
+  width: 20vw;
+  background-color: #4b4b4b;
+}
+.email {
+  width: 20vw;
+}
+.text {
+  text-align: center;
+  font-weight: bold;
+}
+.bar2 {
+  color: white;
+}
+#icon1 {
+  width: 16px;
+  height: 100%;
+  position: absolute;
+  left: 15px;
+}
+#icon2 {
+  width: 16px;
+  height: 100%;
+  position: absolute;
+  left: 15px;
+}
+#icon3 {
+  color: black;
+  width: 16px;
+  height: 100%;
+  position: absolute;
+  left: 15px;
+}

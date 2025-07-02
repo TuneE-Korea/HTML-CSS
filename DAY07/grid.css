@@ -1,0 +1,11 @@
+section {
+  /* 자식을 행렬, 격자, 엑셀표처럼 n*m 형태로 만들어주는 속성 */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
