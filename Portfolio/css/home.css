@@ -1,0 +1,10 @@
+.home > .contents {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1492892132812-a00a8b245c45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8MjB8fGJhY2tncm91bmR8ZW58MHx8fHwxNzUxMTYwMTAxfDA&ixlib=rb-4.1.0&q=80&w=400");
+  background-size: cover;
+}
+.home {
+  position: relative;
+}
+.home > .contents {
+}
