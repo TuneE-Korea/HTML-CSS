@@ -1,11 +1,32 @@
-aside button {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  background-color: transparent;
-  border: 1px solid white;
-  color: white;
-  border-radius: 8px;
-  padding: 15px;
-  font-size: 20px;
+aside > button {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    z-index: 11;
+}
+
+aside > button:hover {
+    color: black;
+    background-color: #dff9fb;
+    border: 1px solid black;
+}
+@media screen and (max-width: 760px) {
+    aside {
+        width: 100%;
+        padding: 0 20px;
+        bottom: 10px;
+        right: 0px;
+    }
+    aside > button {
+        right: 0px;
+        width: 100%;
+        max-width: 760px;
+    }
 }

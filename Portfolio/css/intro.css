@@ -1,0 +1,83 @@
+.contents.num2 {
+    position: relative;
+    height: 25vh;
+    width: 100vw;
+    margin-bottom: 100px;
+}
+.intro {
+    margin: 20px;
+}
+.intro > h2 {
+    position: relative;
+    left: 180px;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.contents.num2 > h2 {
+    text-align: center;
+}
+.info {
+    width: 100vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.iconbox {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.iconbox.card1:hover .text {
+    opacity: 1;
+}
+.iconbox.card2:hover .text {
+    opacity: 1;
+}
+.iconbox.card3:hover .text {
+    opacity: 1;
+}
+.iconbox.card4:hover .text {
+    opacity: 1;
+}
+
+.info .iconbox > i {
+    font-size: 70px;
+}
+
+.info .text {
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.ri-school-line {
+    font-weight: 800;
+    font-size: 30px;
+}
+.ri-pencil-fill {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 760px) {
+    .intro > h2 {
+        width: 50%;
+        text-align: center;
+    }
+    .info {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    .intro > h2 {
+        font-size: 40px;
+    }
+    .info .text {
+        font-size: 20px;
+    }
+    .contents.num2 {
+        height: 100vh;
+    }
+}
